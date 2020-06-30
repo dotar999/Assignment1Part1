@@ -36,6 +36,12 @@
     <Content Include="package.json" />
     <Content Include="public\stylesheets\main.css" />
     <Content Include="README.md" />
+    <Content Include="views\AboutMe.pug">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="views\ContactMe.pug">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="views\index.pug" />
     <Content Include="views\layout.pug" />
     <Content Include="views\error.pug" />
@@ -43,6 +49,12 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="views\Partials\Header.pug">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="views\Projects.pug">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="views\Services.pug">
       <SubType>Code</SubType>
     </Content>
   </ItemGroup>

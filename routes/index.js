@@ -15,8 +15,8 @@ router.get('/', function (req, res) {
 });
 
 //renders an html page with the ExpressJS from the .pug file as a response
-router.get('/About me', (req, res) => {
-    res.render('About me', { title: "About me" });
+router.get('/AboutMe', (req, res) => {
+    res.render('AboutMe', { title: "About me" });
 });
 
 //renders an html page with the ExpressJS from the .pug file as a response
@@ -30,7 +30,7 @@ router.get('/Services', (req, res) => {
 });
 
 //renders an html page with the ExpressJS from the .pug file as a response
-router.get('/Conctact me', (req, res) => {
-    res.render('Contact me', { title: "Contact me" });
+router.get('/ContactMe', (req, res) => {
+    res.render('ContactMe', { title: "Contact me" });
 });
 module.exports = router;
