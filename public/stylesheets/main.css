@@ -1,4 +1,10 @@
-﻿body {
+﻿/* File name: main.css
+ * Author's name: Vladyslav Serdiuk
+ * Web site name: Portfolio
+ * File Description: a css file with some default font,paddings and color for links (a), i haven't changed here anything yet, due to use of A complete css from https://www.bootstrapcdn.com/
+*/
+
+body {
     padding: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }

@@ -1,7 +1,7 @@
 ﻿/* File name: index.js
  * Author's name: Vladyslav Serdiuk
  * Web site name: Portfolio
- * File Description: our route index.js file, works with ExpressJS - get, post methods
+ * File Description: our route index.js file, works with ExpressJS - get methods, which simply generates a html web page from the .pug template file.
 */
 
 
@@ -14,18 +14,22 @@ router.get('/', function (req, res) {
     res.render('index', { title: 'Home' });
 });
 
+//renders an html page with the ExpressJS from the .pug file as a response
 router.get('/About me', (req, res) => {
     res.render('About me', { title: "About me" });
 });
 
+//renders an html page with the ExpressJS from the .pug file as a response
 router.get('/Projects', (req, res) => {
     res.render('Projects', { title: "Projects" });
 });
 
+//renders an html page with the ExpressJS from the .pug file as a response
 router.get('/Services', (req, res) => {
     res.render('Services', { title: "Services" });
 });
 
+//renders an html page with the ExpressJS from the .pug file as a response
 router.get('/Conctact me', (req, res) => {
     res.render('Contact me', { title: "Contact me" });
 });
