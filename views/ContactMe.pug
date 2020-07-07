@@ -7,5 +7,27 @@ block content
   br
   p You MAY call: (249)359-9389
   p You can email me: 200406142@student.georgianc.on.ca or kotvasyanapivase@gmail.com
-  p You can come physically to: oh no, you can't 
+  br
+  br
+  p You can send me your name, email and message via this form:
+  
+  
+  //The form is ok, but it doesn't send any email, it's incomplete
+  form(action="/ContactMe" id="email-form" method="POST")
+    
+        label(for="name">Your Name)
+            input(id="name", name="name", type="text",  placeholder="Enter Your Name")
+              
+        label(for="email">Your Email)
+            input(id="email", name="email", type="text", placeholder="Enter Your Email")
+                       
+
+        label(for="text">Your Text)
+             textarea(id="text", name="text",rows="3", placeholder="Enter text of your message here") 
+           
+
+        <button type="submit">Submit</button>
+        
+        </form>
+        
   include Partials/Footer
