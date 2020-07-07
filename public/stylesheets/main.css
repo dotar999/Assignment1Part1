@@ -9,6 +9,11 @@ body {
     padding: 50px;
     padding-left: 125px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: #c7b39b url(../images/background.jpg);
+}
+
+p,h1,h2 {
+    color: white;
 }
 
 a {
