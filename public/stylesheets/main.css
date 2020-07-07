@@ -1,14 +1,57 @@
 ﻿/* File name: main.css
  * Author's name: Vladyslav Serdiuk
  * Web site name: Portfolio
- * File Description: a css file with some default font,paddings and color for links (a), i haven't changed here anything yet, due to use of A complete css from https://www.bootstrapcdn.com/
+ * File Description: a css file with some default font,paddings and color for links (a), i use the complete css from https://www.bootstrapcdn.com/ , 
+   and i added some style for my navigation bar
 */
 
 body {
     padding: 50px;
+    padding-left: 125px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
     color: #00B7FF;
+}
+
+#mySitenav a {
+    position: absolute;
+    left: -70px;
+    width: 110px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 0 5px 5px 0;
+    transition: 0.25s;
+}
+
+#mySitenav a:hover {
+ 
+    left: 0;
+}
+
+#home {
+    top: 65px;
+    background-color: #7B7FED;
+}
+
+#about {
+    top: 110px;
+    background-color: #EA9F2A;
+}
+
+#projects {
+    top: 155px;
+    background-color: #D15867;
+}
+
+#services {
+    top: 200px;
+    background-color: #4CCC9C;
+}
+
+#contact {
+    top: 245px;
+    background-color: #9DE5E4;
 }
